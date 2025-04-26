@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nyadhoch Supermarket - Products</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #2c3e50;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background-color: #27ae60;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    main {
+      padding: 20px;
+    }
+    h2 {
+      color: #27ae60;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .product-card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card h3 {
+      margin: 10px 0;
+      color: #2c3e50;
+      font-size: 20px;
+    }
+    .product-card p {
+      font-size: 14px;
+      color: #7f8c8d;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #27ae60;
+      color: white;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .cta:hover {
+      background-color: #219150;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="product.html">Products</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<header>
+  <h1>NYADHOCH SUPERMARKET</h1>
+  <p>Explore Our Wide Range of Quality Products!</p>
+</header>
+
+<main>
+  <h2>Our Products</h2>
+
+  <div class="products">
+    <div class="product-card">
+      <h3>Fresh Groceries</h3>
+      <p>Get the freshest fruits, vegetables, dairy, and meats at affordable prices.</p>
+    </div>
+    <div class="product-card">
+      <h3>Household Essentials</h3>
+      <p>From cleaning supplies to kitchenware, we have everything you need for your home.</p>
+    </div>
+    <div class="product-card">
+      <h3>Health & Beauty</h3>
+      <p>Top brands in skincare, haircare, and health products to keep you looking and feeling your best.</p>
+    </div>
+    <div class="product-card">
+      <h3>Bakery & Snacks</h3>
+      <p>Freshly baked breads, cakes, pastries, and a wide selection of delicious snacks.</p>
+    </div>
+    <div class="product-card">
+      <h3>Beverages</h3>
+      <p>Soft drinks, juices, bottled water, coffee, and tea — all in one place.</p>
+    </div>
+    <div class="product-card">
+      <h3>Baby Products</h3>
+      <p>Trusted baby care essentials — diapers, formula, and baby food for your little ones.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    Shop Now and Enjoy Great Discounts on All Products!
+  </div>
+
+</main>
+
+</body>
+</html>
